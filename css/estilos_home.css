@@ -1,0 +1,189 @@
+.background {
+    background-size: cover;
+}
+.grid {
+    display:flex;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+}
+
+.grid > article {
+    background-color: white;
+    transition: 1s;
+}
+
+.grid > article:hover {
+    background-color: white;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.grid > article img {
+    max-width: 100%;
+    filter: grayscale(0.33);
+    transition: 1s;
+}
+
+.grid > article:hover img {
+    max-width: 100%;
+    filter: grayscale(0);
+    transition: 0.5s;
+}
+
+.text {
+    padding: 0 20px 20px;
+}
+
+.button {
+    font-size: 13px;
+    background-color: transparent;
+    color: #0268D9;
+    border: 2px solid #0268D9;
+    padding: 7px;
+    border-radius: 25px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.button:hover {
+    font-size: 15px;
+    background-color: #0268D9;
+    color: white;
+    border: 2px solid #0268D9;
+    padding: 7px;
+    border-radius: 25px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+.barranav {
+    text-align: center;
+    display: inherit;
+    flex: none;
+    color: blue;
+    background-color: #0268D9;
+    font-size: 20px;
+}
+
+#navbarsExampleDefault:hover {
+    color: #E0CC2F;
+    transition: 0.5s;
+}
+
+.bg {
+    background-color: white;
+}
+
+.footer {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
+
+
+.svga {
+    height: 35px;
+    fill: #ffffff;
+}
+
+.svga:hover {
+    transition: 0.5s;
+    fill: #ffffff;
+}
+
+.svg {
+    height: 35px;
+    transition: 0.5s;
+    fill: #ffffff80;
+}
+
+svg:hover {
+    transition: 0.5s;
+    fill: white;
+}
+
+.zit {
+    font-size: 17px;
+}
+
+.fa {
+    color: white;
+    padding: 25px;
+    font-size: 100px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-facebook:focus {
+    opacity: 0.7;
+    transition: 0.5s;
+    text-decoration: none;
+    color: #3B5998;
+}
+
+.fa-twitter:focus {
+    opacity: 0.7;
+    transition: 0.5s;
+    text-decoration: none;
+    color: #55ACEE;
+}
+
+.fa-instagram:focus {
+    opacity: 0.7;
+    transition: 0.5s;
+    text-decoration: none;
+    color: #125688;
+}
+
+.fa-youtube:focus {
+    opacity: 0.7;
+    transition: 0.5s;
+    text-decoration: none;
+    color: #bb0000;
+}
+
+.title {
+    color: rgb(250, 250, 250);
+    font-size: 45px;
+    font-family: "Universal Serif";
+}
+
+.title2 {
+    color: rgb(250, 250, 250);
+    font-size: 38px;
+    font-family: "Universal Serif";
+}
+
+.arrow {
+    height: 75px;
+}
+
+
+.slider {
+    width: 66%;
+}
+
+@import url(//db.onlinewebfonts.com/c/3af3d85ca860411d33a52183fc5322e1?family=Universal+Serif);
+
+@font-face {
+    font-family: "Universal Serif";
+    src: url("//db.onlinewebfonts.com/t/3af3d85ca860411d33a52183fc5322e1.eot");
+    src: url("//db.onlinewebfonts.com/t/3af3d85ca860411d33a52183fc5322e1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3af3d85ca860411d33a52183fc5322e1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3af3d85ca860411d33a52183fc5322e1.woff") format("woff"), url("//db.onlinewebfonts.com/t/3af3d85ca860411d33a52183fc5322e1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3af3d85ca860411d33a52183fc5322e1.svg#Universal Serif") format("svg");
+}
